@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="1">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="130dp">
+
+
+        <ImageView
+            android:id="@+id/profilePhoto"
+            android:layout_width="66dp"
+            android:layout_height="66dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/tony_stark_small" />
+
+        <TextView
+            android:id="@+id/nameText"
+            android:layout_width="150dp"
+            android:layout_height="30sp"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignStart="@+id/textView2"
+            android:layout_alignTop="@+id/profilePhoto"
+            android:text="SHIVAM KUMAR"
+            android:textColor="#222222"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/emailText"
+            android:layout_width="200dp"
+            android:layout_height="20dp"
+            android:layout_alignLeft="@+id/nameText"
+            android:layout_alignStart="@+id/nameText"
+            android:layout_below="@+id/nameText"
+            android:layout_gravity="center"
+            android:text="shivam.kumard107@gmail.com"
+            android:textColor="#555555"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="24sp"
+            android:layout_below="@+id/emailText"
+            android:layout_gravity="center"
+            android:layout_marginLeft="11dp"
+            android:layout_marginStart="11dp"
+            android:layout_toEndOf="@+id/profilePhoto"
+            android:layout_toRightOf="@+id/profilePhoto"
+            android:text="+91 9582857833"
+            android:textColor="#555555"
+            android:textSize="14sp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/education"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:text="EDUCATION"
+            android:layout_marginBottom="15dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/Training"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:text="TRAINING"
+            android:layout_marginBottom="15dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/education"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/Projects"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:text="PROJECTS"
+            android:layout_marginBottom="15dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/Training"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Skills"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="15dp"
+            android:layout_below="@id/Projects"
+            android:text="SKILLS"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Additional_Details"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:text="ADDITIONAL DETAILS"
+            android:layout_marginBottom="15dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/Skills"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>
+

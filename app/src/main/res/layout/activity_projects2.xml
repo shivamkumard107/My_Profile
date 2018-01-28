@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:text="Scholarship point"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:textColor="#222222"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#555555"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="20dp"
+        android:text="Oct 2014 - Nov 2014"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Students studying in class 10th can get their class notes, syllabus, NCERT course books from the portal. An adolescence education programme is also added for teenagers and parents."
+        android:layout_marginLeft="20dp"
+        android:textSize="16sp"
+        android:textColor="#555555"
+        android:layout_marginTop="3dp"/>
+    <View
+        android:layout_width="345dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/darker_gray"/>
+    <TextView
+        android:text="Lifestyle Store (E-commerce website)"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="16sp"
+        android:textColor="#222222"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#555555"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="20dp"
+        android:text="Jan 2018 - Present"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="An E-commerce website to buy shirts, watches and shoes"
+        android:layout_marginLeft="20sp"
+        android:textSize="16sp"
+        android:textColor="#555555"
+        android:layout_marginTop="3dp"/>
+    <View
+        android:layout_width="345dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/darker_gray"/>
+    <TextView
+        android:text="Echo (The Music Player App)"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="16sp"
+        android:textColor="#222222"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#555555"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="20dp"
+        android:text="Jan 2018 - Present"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A Uniques music player app where we can add and listen to songs.
+Unique Functionality of the app:-"
+        android:layout_marginLeft="20dp"
+        android:textSize="16sp"
+        android:textColor="#555555"
+        android:layout_marginTop="3dp"/>
+        <TextView
+            android:text="1 Songs can be added to favorites"
+            android:layout_marginLeft="20dp"
+            android:textSize="16sp"
+            android:textColor="#555555"/>
+        <TextView
+            android:text="2 Shake to change song feature"
+            android:layout_marginLeft="20dp"
+            android:textSize="16sp"
+            android:textColor="#555555"/>
+        <TextView
+            android:text="3 Added visualizer(animations which change
+  according to the music volume
+  of phone)"
+            android:layout_marginLeft="20dp"
+            android:textSize="16sp"
+            android:textColor="#555555"/>
+
+    <View
+        android:layout_width="345dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/darker_gray"/>
+    <TextView
+        android:text="My Profile (This app)"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="16sp"
+        android:textColor="#222222"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="#555555"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="20dp"
+        android:text="Jan 2018 - Feb 2018"/>
+    <View
+        android:layout_width="345dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/darker_gray"/>
+
+    </TableLayout>
+</ScrollView>
+</LinearLayout>

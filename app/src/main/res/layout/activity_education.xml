@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+   >
+
+    <TextView
+        android:text="X (Secondary)"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="16sp"
+        android:textColor="#222222"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="#555555"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:text="Year of Completion: 2015"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="#555555"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:text="CBSE Board (Kendriya Vidyalaya Dwarka New Delhi)"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="#555555"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:text="CGPA : 10.00/10"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/darker_gray"/>
+    <TextView
+        android:text="XII (Senior Secondary), Science"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="16sp"
+        android:textColor="#222222"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="#555555"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:text="Year of Completion: 2017"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="#555555"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:text="CBSE(NEW SAINIK PUBLIC SCHOOL, QUTUB VIHAR, GOYLA DAIRY,NEW DELHI"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="#555555"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:text="Percentage : 86.00%"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/darker_gray"/>
+
+
+
+    <TextView
+        android:text="CURRENTLY :"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="16sp"
+        android:textColor="#222222"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:text="Undergraduate in Computer Science Engineering"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="16sp"
+        android:textColor="#222222"
+        android:layout_marginLeft="20dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="#555555"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:text="1ST SEMESTER CGPA : 8.33/10"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="#555555"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:text="DELHI TECHNOLOGICAL UNIVERSITY"/>
+
+    <View
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@android:color/darker_gray"/>
+
+
+</LinearLayout>
+
+
+

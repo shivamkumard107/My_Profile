@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shivamkumar.myprofile">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="My profile">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ProfilePhoto"
+            android:label="My Profile Photo" />
+        <activity
+            android:name=".Education"
+            android:label="Education" />
+        <activity
+            android:name=".Projects"
+            android:label="My Projects" />
+        <activity
+            android:name=".Skills"
+            android:label="My skills" />
+        <activity
+            android:name=".AdditionalDetails"
+            android:label="Additional Details" />
+        <activity
+            android:name=".Trainings"
+            android:label="Trainings" />
+
+        <activity android:name=".CertificateWebD_"
+            android:label="Certificate"/>
+
+        <activity android:name=".CertificateAndroid_Internshala"
+            android:label="Certificate"/>
+
+        <activity android:name=".Certificate_Java"
+            android:label="Certificate"/>
+
+        <activity android:name=".Certificate_SQL_Udemy"
+            android:label="Certificate"/>
+
+        <activity android:name=".Certificate_Android_Udemy"
+            android:label="Certificate"></activity>
+    </application>
+
+</manifest>
