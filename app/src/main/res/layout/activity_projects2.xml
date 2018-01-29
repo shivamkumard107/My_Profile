@@ -34,12 +34,14 @@
         android:textSize="16sp"
         android:textColor="#555555"
         android:layout_marginTop="3dp"/>
-    <View
-        android:layout_width="345dp"
-        android:layout_height="1dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="16dp"
-        android:background="@android:color/darker_gray"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/darker_gray"/>
     <TextView
         android:text="Lifestyle Store (E-commerce website)"
         android:layout_height="wrap_content"
@@ -64,12 +66,14 @@
         android:textSize="16sp"
         android:textColor="#555555"
         android:layout_marginTop="3dp"/>
-    <View
-        android:layout_width="345dp"
-        android:layout_height="1dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="16dp"
-        android:background="@android:color/darker_gray"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/darker_gray"/>
     <TextView
         android:text="Echo (The Music Player App)"
         android:layout_height="wrap_content"
@@ -114,12 +118,14 @@ Unique Functionality of the app:-"
             android:textSize="16sp"
             android:textColor="#555555"/>
 
-    <View
-        android:layout_width="345dp"
-        android:layout_height="1dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="16dp"
-        android:background="@android:color/darker_gray"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/darker_gray"/>
     <TextView
         android:text="My Profile (This app)"
         android:layout_height="wrap_content"
@@ -136,12 +142,14 @@ Unique Functionality of the app:-"
         android:layout_marginTop="3dp"
         android:layout_marginLeft="20dp"
         android:text="Jan 2018 - Feb 2018"/>
-    <View
-        android:layout_width="345dp"
-        android:layout_height="1dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="16dp"
-        android:background="@android:color/darker_gray"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/darker_gray"/>
 
     </TableLayout>
 </ScrollView>
