@@ -35,21 +35,23 @@
         <activity
             android:name=".Trainings"
             android:label="Trainings" />
-
-        <activity android:name=".CertificateWebD_"
-            android:label="Certificate"/>
-
-        <activity android:name=".CertificateAndroid_Internshala"
-            android:label="Certificate"/>
-
-        <activity android:name=".Certificate_Java"
-            android:label="Certificate"/>
-
-        <activity android:name=".Certificate_SQL_Udemy"
-            android:label="Certificate"/>
-
-        <activity android:name=".Certificate_Android_Udemy"
-            android:label="Certificate"></activity>
+        <activity
+            android:name=".CertificateWebD_"
+            android:label="Certificate" />
+        <activity
+            android:name=".CertificateAndroid_Internshala"
+            android:label="Certificate" />
+        <activity
+            android:name=".Certificate_Java"
+            android:label="Certificate" />
+        <activity
+            android:name=".Certificate_SQL_Udemy"
+            android:label="Certificate" />
+        <activity
+            android:name=".Certificate_Android_Udemy"
+            android:label="Certificate" />
+        <activity android:name=".Udemy_WebD_certificate"
+            android:label="Certificate" ></activity>
     </application>
 
 </manifest>

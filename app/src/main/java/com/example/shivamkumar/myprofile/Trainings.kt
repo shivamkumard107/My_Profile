@@ -12,6 +12,7 @@ class Trainings : AppCompatActivity() {
     var JavaCertificate: Button? = null
     var SQLUdemy_Certificate : Button? = null
     var Android_UdemyCertificate: Button? = null
+    var Udemy_WebDcertificate: Button? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -40,6 +41,11 @@ class Trainings : AppCompatActivity() {
         Android_UdemyCertificate = findViewById(R.id.UdemyAndroidCert)
         Android_UdemyCertificate?.setOnClickListener({
             var clickIntent = Intent(this@Trainings,Certificate_Android_Udemy::class.java)
+            startActivity(clickIntent)
+        })
+        Udemy_WebDcertificate = findViewById((R.id.UdemyWebDCert))
+        Udemy_WebDcertificate?.setOnClickListener({
+            var clickIntent = Intent(this@Trainings, Udemy_WebD_certificate::class.java)
             startActivity(clickIntent)
         })
     }

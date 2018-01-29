@@ -13,222 +13,280 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:stretchColumns="1">
+
             <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
                 android:text="Web Development"
-                android:layout_height="wrap_content"
-                android:layout_width="match_parent"
-                android:textSize="16sp"
                 android:textColor="#222222"
-                android:layout_marginTop="20dp"
-                android:layout_marginLeft="20dp" />
+                android:textSize="16sp" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="12sp"
-                android:textColor="#555555"
-                android:layout_marginTop="3dp"
                 android:layout_marginLeft="20dp"
-                android:text="Internshala Training (Online)"/>
+                android:layout_marginTop="3dp"
+                android:text="Internshala Training (Online)"
+                android:textColor="#555555"
+                android:textSize="12sp" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="12sp"
-                android:textColor="#555555"
-                android:layout_marginTop="3dp"
                 android:layout_marginLeft="20dp"
+                android:layout_marginTop="3dp"
                 android:text="Dec 2017 - Jan 2018
-"/>
+"
+                android:textColor="#555555"
+                android:textSize="12sp" />
 
             <Button
-                android:layout_width="300dp"
-                android:layout_height="wrap_content"
-                android:text="Certificate"
-                android:layout_gravity="center"
-                android:textColor="#FFFFFF"
-                android:layout_centerHorizontal="true"
                 android:id="@+id/webDCert"
-                />
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:text="Certificate"
+                android:textColor="#FFFFFF" />
+
             <View
                 android:layout_width="match_parent"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
                 android:layout_height="1dp"
                 android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
                 android:layout_marginTop="16dp"
-                android:background="@android:color/darker_gray"/>
+                android:background="@android:color/darker_gray" />
+
             <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
                 android:text="Android Application Development"
-                android:layout_height="wrap_content"
-                android:layout_width="match_parent"
-                android:textSize="16sp"
                 android:textColor="#222222"
-                android:layout_marginTop="20dp"
-                android:layout_marginLeft="20dp" />
+                android:textSize="16sp" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="12sp"
-                android:textColor="#555555"
-                android:layout_marginTop="3dp"
                 android:layout_marginLeft="20dp"
-                android:text="Internshala Training (Online)"/>
+                android:layout_marginTop="3dp"
+                android:text="Internshala Training (Online)"
+                android:textColor="#555555"
+                android:textSize="12sp" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="12sp"
-                android:textColor="#555555"
-                android:layout_marginTop="3dp"
                 android:layout_marginLeft="20dp"
+                android:layout_marginTop="3dp"
                 android:text="Dec 2017 - Jan 2018
-"/>
+"
+                android:textColor="#555555"
+                android:textSize="12sp" />
+
             <Button
-                android:layout_width="300dp"
-                android:layout_height="wrap_content"
-                android:text="Certificate"
-                android:layout_gravity="center"
-                android:textColor="#FFFFFF"
-                android:layout_centerHorizontal="true"
                 android:id="@+id/androidInternshalaCert"
-                />
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:text="Certificate"
+                android:textColor="#FFFFFF" />
+
             <View
                 android:layout_width="match_parent"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
                 android:layout_height="1dp"
                 android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
                 android:layout_marginTop="16dp"
-                android:background="@android:color/darker_gray"/>
+                android:background="@android:color/darker_gray" />
+
             <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
                 android:text="JAVA"
-                android:layout_height="wrap_content"
-                android:layout_width="match_parent"
-                android:textSize="16sp"
                 android:textColor="#222222"
-                android:layout_marginTop="20dp"
-                android:layout_marginLeft="20dp" />
+                android:textSize="16sp" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="12sp"
-                android:textColor="#555555"
-                android:layout_marginTop="3dp"
                 android:layout_marginLeft="20dp"
-                android:text="Coding Blocks"/>
+                android:layout_marginTop="3dp"
+                android:text="Coding Blocks"
+                android:textColor="#555555"
+                android:textSize="12sp" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="12sp"
-                android:textColor="#555555"
-                android:layout_marginTop="3dp"
                 android:layout_marginLeft="20dp"
-                android:text="Dec 2017 - Present"/>
+                android:layout_marginTop="3dp"
+                android:text="Dec 2017 - Present"
+                android:textColor="#555555"
+                android:textSize="12sp" />
 
             <Button
-                android:layout_width="300dp"
-                android:layout_height="wrap_content"
-                android:text="Certificate"
-                android:layout_gravity="center"
-                android:textColor="#FFFFFF"
-                android:layout_centerHorizontal="true"
                 android:id="@+id/javaCert"
-                />
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:text="Certificate"
+                android:textColor="#FFFFFF" />
 
             <View
                 android:layout_width="match_parent"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
                 android:layout_height="1dp"
                 android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
                 android:layout_marginTop="16dp"
-                android:background="@android:color/darker_gray"/>
+                android:background="@android:color/darker_gray" />
+
             <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
                 android:text="Introduction to Database and SQL Querying"
-                android:layout_height="wrap_content"
-                android:layout_width="match_parent"
-                android:textSize="16sp"
                 android:textColor="#222222"
-                android:layout_marginTop="20dp"
-                android:layout_marginLeft="20dp" />
+                android:textSize="16sp" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="12sp"
-                android:textColor="#555555"
-                android:layout_marginTop="3dp"
                 android:layout_marginLeft="20dp"
-                android:text="Udemy (online)"/>
+                android:layout_marginTop="3dp"
+                android:text="Udemy (online)"
+                android:textColor="#555555"
+                android:textSize="12sp" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="12sp"
-                android:textColor="#555555"
-                android:layout_marginTop="3dp"
                 android:layout_marginLeft="20dp"
-                android:text="Dec 2017 - Jan 2018"/>
+                android:layout_marginTop="3dp"
+                android:text="Dec 2017 - Jan 2018"
+                android:textColor="#555555"
+                android:textSize="12sp" />
 
             <Button
-                android:layout_width="300dp"
-                android:layout_height="wrap_content"
-                android:text="Certificate"
-                android:layout_gravity="center"
-                android:textColor="#FFFFFF"
-                android:layout_centerHorizontal="true"
                 android:id="@+id/UdemySQLCert"
-                />
-
-            <View
-                android:layout_width="match_parent"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:layout_height="1dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="16dp"
-                android:background="@android:color/darker_gray"/>
-            <TextView
-                android:text="Android Development From Scratch"
-                android:layout_height="wrap_content"
-                android:layout_width="match_parent"
-                android:textSize="16sp"
-                android:textColor="#222222"
-                android:layout_marginTop="20dp"
-                android:layout_marginLeft="20dp" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="12sp"
-                android:textColor="#555555"
-                android:layout_marginTop="3dp"
-                android:layout_marginLeft="20dp"
-                android:text="Udemy (online)"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="12sp"
-                android:textColor="#555555"
-                android:layout_marginTop="3dp"
-                android:layout_marginLeft="20dp"
-                android:text="Jan 2018 - present"/>
-
-            <Button
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
-                android:text="Certificate"
-                android:layout_gravity="center"
-                android:textColor="#FFFFFF"
                 android:layout_centerHorizontal="true"
-                android:id="@+id/UdemyAndroidCert"
-                />
+                android:layout_gravity="center"
+                android:text="Certificate"
+                android:textColor="#FFFFFF" />
 
             <View
                 android:layout_width="match_parent"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
                 android:layout_height="1dp"
                 android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
                 android:layout_marginTop="16dp"
-                android:layout_marginBottom="10dp"
-                android:background="@android:color/darker_gray"/>
+                android:background="@android:color/darker_gray" />
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="The Complete Android N Developer Course"
+                android:textColor="#222222"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="3dp"
+                android:text="Udemy (online)"
+                android:textColor="#555555"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="3dp"
+                android:text="Jan 2018 - present"
+                android:textColor="#555555"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/UdemyAndroidCert"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:text="Certificate"
+                android:textColor="#FFFFFF" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="16dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="The Web Developer Bootcamp"
+                android:textColor="#222222"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="3dp"
+                android:text="Udemy (online)"
+                android:textColor="#555555"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="3dp"
+                android:text="Jan 2018 - present"
+                android:textColor="#555555"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/UdemyWebDCert"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:text="Certificate"
+                android:textColor="#FFFFFF" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="16dp"
+                android:background="@android:color/darker_gray" />
 
 
         </TableLayout>

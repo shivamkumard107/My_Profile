@@ -93,35 +93,13 @@
         android:id="@+id/BeginnerAndroid"
         android:textSize="20sp"
         />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/ANDROID"
+        android:layout_alignLeft="@id/ANDROID"
         android:layout_alignStart="@+id/ANDROID"
         android:layout_below="@+id/ANDROID"
-        android:layout_marginTop="20dp"
-        android:text="JAVASCRIPT"
-        android:textColor="#222222"
-        android:textSize="20sp"
-        android:id="@+id/JAVASCRIPT"
-        />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@id/JAVASCRIPT"
-        android:layout_alignBottom="@+id/JAVASCRIPT"
-        android:layout_alignLeft="@id/JAVASCRIPT"
-        android:layout_alignStart="@+id/BeginnerAndroid"
-        android:text="Beginner"
-        android:id="@+id/BeginnerJavascript"
-        android:textSize="20sp"
-        />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@id/JAVASCRIPT"
-        android:layout_alignStart="@+id/JAVASCRIPT"
-        android:layout_below="@+id/JAVASCRIPT"
         android:layout_marginTop="20dp"
         android:text="KOTLIN"
         android:textColor="#222222"

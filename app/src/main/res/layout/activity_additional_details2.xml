@@ -13,7 +13,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="200dp"
             android:layout_marginLeft="10dp"
-        android:text="Secured 14k rank among more than 10.2 lakh students in Joint entrance examination mains for B.TECH Engineering in 2017..."
+        android:text="Secured 13k rank among more than 10.2 lakh students in Joint entrance examination mains for B.TECH Engineering in 2017..."
             android:id="@+id/aboutMe"
             />
 
