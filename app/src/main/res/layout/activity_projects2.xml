@@ -34,6 +34,7 @@
         android:textSize="16sp"
         android:textColor="#555555"
         android:layout_marginTop="3dp"/>
+
         <View
             android:layout_width="match_parent"
             android:layout_marginLeft="10dp"
@@ -47,7 +48,7 @@
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:textSize="16sp"
-        android:textColor="#222222"
+        android:textColor="#555555"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="20dp" />
     <TextView
@@ -58,6 +59,16 @@
         android:layout_marginTop="3dp"
         android:layout_marginLeft="20dp"
         android:text="Jan 2018 - Present"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#0000ff"
+            android:clickable="true"
+            android:linksClickable="true"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="20dp"
+            android:text="https://github.com/shivamkumard107/LifeStyle-Store" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -142,6 +153,16 @@ Unique Functionality of the app:-"
         android:layout_marginTop="3dp"
         android:layout_marginLeft="20dp"
         android:text="Jan 2018 - Feb 2018"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#0000ff"
+            android:clickable="true"
+            android:linksClickable="true"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="20dp"
+            android:text="https://github.com/shivamkumard107/My_Profile" />
         <View
             android:layout_width="match_parent"
             android:layout_marginLeft="10dp"
@@ -150,7 +171,6 @@ Unique Functionality of the app:-"
             android:layout_gravity="center"
             android:layout_marginTop="16dp"
             android:background="@android:color/darker_gray"/>
-
     </TableLayout>
 </ScrollView>
 </LinearLayout>
