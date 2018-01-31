@@ -11,7 +11,7 @@
         android:layout_height="match_parent">
 
     <TextView
-        android:text="Scholarship point"
+        android:text="Scholarship Point"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:textSize="20sp"
@@ -43,14 +43,15 @@
             android:layout_gravity="center"
             android:layout_marginTop="16dp"
             android:background="@android:color/darker_gray"/>
-    <TextView
-        android:text="Lifestyle Store (E-commerce website)"
-        android:layout_height="wrap_content"
-        android:layout_width="match_parent"
-        android:textSize="16sp"
-        android:textColor="#555555"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="20dp" />
+        <TextView
+            android:text="Lifestyle Store (E-commerce website)"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="20sp"
+            android:textColor="#222222"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -58,7 +59,7 @@
         android:textColor="#555555"
         android:layout_marginTop="3dp"
         android:layout_marginLeft="20dp"
-        android:text="Jan 2018 - Present"/>
+        android:text="Jan 2018 - feb 2018"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -85,14 +86,14 @@
             android:layout_gravity="center"
             android:layout_marginTop="16dp"
             android:background="@android:color/darker_gray"/>
-    <TextView
-        android:text="Echo (The Music Player App)"
-        android:layout_height="wrap_content"
-        android:layout_width="match_parent"
-        android:textSize="16sp"
-        android:textColor="#222222"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="20dp" />
+        <TextView
+            android:text="Echo (The Music Player App)"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="20sp"
+            android:textColor="#222222"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -141,14 +142,14 @@ Unique Functionality of the app:-"
         android:text="My Profile (This app)"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:textSize="16sp"
+        android:textSize="20sp"
         android:textColor="#222222"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="20dp" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="12sp"
+        android:textSize="16sp"
         android:textColor="#555555"
         android:layout_marginTop="3dp"
         android:layout_marginLeft="20dp"
@@ -167,6 +168,7 @@ Unique Functionality of the app:-"
             android:layout_width="match_parent"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
+            android:textSize="16sp"
             android:layout_height="1dp"
             android:layout_gravity="center"
             android:layout_marginTop="16dp"
